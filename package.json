@@ -1,0 +1,31 @@
+{
+  "name": "web-sdk-v3",
+  "version": "1.0.0",
+  "description": "RongCloud Web SDK v3.0",
+  "main": "index.js",
+  "scripts": {
+   "eslint": "./node_modules/.bin/eslint  \"src/**/*.js\"",
+   "release:chatroom": "",
+   "release:im": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuhongda0315/web-sdk-v3.git"
+  },
+  "keywords": [
+    "RongCloud",
+    "IM",
+    "WebSDK"
+  ],
+  "author": "yuhongda0315@163.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuhongda0315/web-sdk-v3/issues"
+  },
+  "homepage": "https://github.com/yuhongda0315/web-sdk-v3#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "rollup": "^0.59.4",
+    "rollup-plugin-babel": "^3.0.4"
+  }
+}
